@@ -6,5 +6,5 @@ said data to display in a graph.
 
 ## Building
 
-For building the project, please build using the CMakeLists.txt file and ensure that a version of both wxWidgets and CMake exists on your system..
+For building the project, please build using the CMakeLists.txt file and ensure that a version of both wxWidgets and CMake exists on your system.
 Additionally, please install Python packages listed in requirements.txt.
