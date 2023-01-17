@@ -4,9 +4,9 @@ set(CMAKE_CXX_STANDARD 17)
 project(DatabaseGraph VERSION 1.0)
 
 find_package(SQLite3 REQUIRED)
-find_package(wxWidgets COMPONENTS net core base REQUIRED)
+find_package(wxWidgets COMPONENTS net core base REQUIRED CONFIG)
 
-if(wxWidgets_FOUND)
+if(wxWidgets_USE_FILE)
     include(${wxWidgets_USE_FILE})
 endif()
 
